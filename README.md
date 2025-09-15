@@ -1,4 +1,4 @@
-# Amazon Reviews Sentiment Analyzer (NLP)
+<img width="527" height="393" alt="download" src="https://github.com/user-attachments/assets/20ddcbb3-5fa6-4a99-ac58-1b6bffad7ee7" /># Amazon Reviews Sentiment Analyzer (NLP)
 
 This project uses Natural Language Processing (NLP) techniques to analyze Amazon product reviews and classify them as either positive or negative. It serves as a practical demonstration of a complete data science workflow, from data cleaning and preprocessing to model training and evaluation.
 
@@ -78,4 +78,21 @@ The trained Logistic Regression model achieved the following performance on the 
 
 - **Accuracy**: 89.2%
 
-### Classification Report
+### Confusion Matrix
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f77386b-861c-43dc-8f9e-812e81b0e240" />
+
+**Interpretation**:
+- **Accuracy**: The model correctly classified 89.2% of the reviews.
+- **Precision (Positive)**: When the model predicts a review is positive, it is correct 88% of the time.
+- **Recall (Positive)**: The model correctly identified 92% of all actual positive reviews.
+- **Confusion Matrix**: The matrix shows that the model had a higher number of false negatives (misclassifying positive reviews as negative) compared to false positives.
+
+---
+
+## How to Run the Code
+
+1.  **Clone the repository**: `git clone https://github.com/your-username/Amazon-Reviews-Sentiment-Analyzer.git`
+2.  **Download the dataset**: Get the `Reviews.csv` file from the Kaggle link provided above and place it in the same directory as the notebook.
+3.  **Install dependencies**: Run `pip install -r requirements.txt`.
+4.  **Open the notebook**: Launch Jupyter Notebook or JupyterLab and open `Amazon_Reviews_Sentiment_Analyzer.ipynb` to explore the code.
+
