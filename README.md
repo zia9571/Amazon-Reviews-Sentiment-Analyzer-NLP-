@@ -1,5 +1,3 @@
-<img width="527" height="393" alt="download" src="https://github.com/user-attachments/assets/20ddcbb3-5fa6-4a99-ac58-1b6bffad7ee7" /># Amazon Reviews Sentiment Analyzer (NLP)
-
 This project uses Natural Language Processing (NLP) techniques to analyze Amazon product reviews and classify them as either positive or negative. It serves as a practical demonstration of a complete data science workflow, from data cleaning and preprocessing to model training and evaluation.
 
 ## Table of Contents
@@ -76,10 +74,11 @@ You can install these dependencies using pip:
 
 The trained Logistic Regression model achieved the following performance on the test set:
 
-- **Accuracy**: 89.2%
+- **Accuracy**: 93%
 
 ### Confusion Matrix
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f77386b-861c-43dc-8f9e-812e81b0e240" />
+<img width="881" height="815" alt="Screenshot (1254)" src="https://github.com/user-attachments/assets/839eab77-9279-46ee-8aec-18fa4d76d0ff" />
+
 
 **Interpretation**:
 - **Accuracy**: The model correctly classified 89.2% of the reviews.
