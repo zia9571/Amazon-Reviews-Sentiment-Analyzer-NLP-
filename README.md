@@ -81,16 +81,16 @@ The trained Logistic Regression model achieved the following performance on the 
 
 
 **Interpretation**:
-- **Accuracy**: The model correctly classified 89.2% of the reviews.
-- **Precision (Positive)**: When the model predicts a review is positive, it is correct 88% of the time.
-- **Recall (Positive)**: The model correctly identified 92% of all actual positive reviews.
+- **Accuracy**: The model correctly classified 93% of the reviews.
+- **Precision (Positive)**: When the model predicts a review is positive, it is correct 94% of the time.
+- **Recall (Positive)**: The model correctly identified 98% of all actual positive reviews.
 - **Confusion Matrix**: The matrix shows that the model had a higher number of false negatives (misclassifying positive reviews as negative) compared to false positives.
 
 ---
 
 ## How to Run the Code
 
-1.  **Clone the repository**: `git clone https://github.com/your-username/Amazon-Reviews-Sentiment-Analyzer.git`
+1.  **Clone the repository**: `git clone https://github.com/zia9571/Amazon-Reviews-Sentiment-Analyzer-NLP-.git`
 2.  **Download the dataset**: Get the `Reviews.csv` file from the Kaggle link provided above and place it in the same directory as the notebook.
 3.  **Install dependencies**: Run `pip install -r requirements.txt`.
 4.  **Open the notebook**: Launch Jupyter Notebook or JupyterLab and open `Amazon_Reviews_Sentiment_Analyzer.ipynb` to explore the code.
